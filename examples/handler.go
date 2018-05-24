@@ -8,7 +8,7 @@ import (
 	"github.com/buni/go-spf"
 )
 
-//SPFPageRender a sample httphander implementing both normal template rendering and SPF response
+// SPFPageRender a sample httphander implementing both normal template rendering and SPF response
 func SPFPageRender(w http.ResponseWriter, r *http.Request) {
 
 	spfq := r.URL.Query().Get("spf")
