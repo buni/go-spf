@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/buni/go-spf"
+	"github.com/Buni/go-spf"
 )
 
 // SPFPageRender a sample httphander implementing both normal template rendering and SPF response
